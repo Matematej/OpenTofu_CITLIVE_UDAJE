@@ -9,9 +9,14 @@ variable "resource_group_name" {
 
 variable "location" {
   type = string
-  default = "East US"
+  default = "westus"
 }
 
 variable "key_vault_id" {
   type = string
+}
+
+variable "prefix" {
+  type = string
+  default = "opentofu"
 }
